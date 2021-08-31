@@ -4,26 +4,26 @@
 >LangDisplayDesc English,Community
 >MODName MODModifier
 >----------window1 main window----------
->QFWDModifierMainUI_FlagSet Flag:
->QFWDModifierMainUI_TimeSet Time:
->QFWDModifierMainUI_MapSet Map:
->QFWDModifierMainUI_OthersSet Misc mod:
->QFWDModifierMainUI_QuickFu Talisman:
->QFWDModifierMainUI_SchoolManager Sect:
->QFWDModifierMainUI_NpcManager NpcMgr:
->QFWDModifierMainUI_ThingManager ItemMgr:
->QFWDModifierMainUI_JHNpcManager Trader:
->QFWDModifierMainUI_PlaceSet Location:
->QFWDModifierMainUI_BuildingManager Building:
->QFWDModifierMainUI_PlantManager Plant:
->QFWDModifierMainUI_CallBoss BOSS:
->QFWDModifierMainUI_JoinnerSet Char:
->QFWDModifierMainUI_AddManager AddMgr:
->QFWDModifierMainUI_EventSet Events:
->QFWDModifierMainUI_WeatherSet Weather:
->QFWDModifierMainUI_AchievementManager Achievement:
->QFWDModifierMainUI_EasyUse EasyToUse:
->QFWDModifierMainUI_OthersModManager Others:
+>QFWDModifierMainUI_FlagSet World Flags
+>QFWDModifierMainUI_TimeSet Time
+>QFWDModifierMainUI_MapSet Map
+>QFWDModifierMainUI_OthersSet Game Flags
+>QFWDModifierMainUI_QuickFu Talismans
+>QFWDModifierMainUI_SchoolManager Sects
+>QFWDModifierMainUI_NpcManager NPCs
+>QFWDModifierMainUI_ThingManager Items
+>QFWDModifierMainUI_JHNpcManager Traders
+>QFWDModifierMainUI_PlaceSet Locations
+>QFWDModifierMainUI_BuildingManager Buildings
+>QFWDModifierMainUI_PlantManager Plants
+>QFWDModifierMainUI_CallBoss Spawn BOSS
+>QFWDModifierMainUI_JoinnerSet Spawn NPCs
+>QFWDModifierMainUI_AddManager Spawn Items
+>QFWDModifierMainUI_EventSet Events
+>QFWDModifierMainUI_WeatherSet Weather
+>QFWDModifierMainUI_AchievementManager Achievements
+>QFWDModifierMainUI_EasyUse Easy Menu
+>QFWDModifierMainUI_OthersModManager Misc
 >QFWDModifierMainUI_btnIn Enter
 >QFWDModifierMainUI_ChooseAutoStart Default pop-up window
 >QFWDModifierMainUI_bntShowHelp ?
@@ -294,7 +294,7 @@
 >FlagSet_Tips12 Value
 >FlagSet_Tips13 Flag list
 >----------window9 Jianghu NPC management----------
->JHNpcManager_Title Jianghu NPC management
+>JHNpcManager_Title Jianghu Trader Manager
 >JHNpcManager_lable3111 ID
 >JHNpcManager_bntCopyNpcList Copy data
 >JHNpcManager_bntShowJHNPCBase Base Stats
@@ -558,7 +558,7 @@
 >TimeSet_Tips7 modified to winter:
 
 >----------window15 item module----------
->ThingManagerMore_Title Item Module
+>ThingManagerMore_Title Item Manager
 >ThingManagerMore_ShowLableThingSetMod EquipmentMOD:
 >ThingManagerMore_ShowLableThing Current module:
 >ThingManagerMore_bntUpdate Refresh
@@ -942,7 +942,7 @@
 >OthersModManager_Tips1 Green is available, red is not available!
 
 >----------window24 NPC more management----------
->NpcManagerTitle_Title NPC more management
+>NpcManagerTitle_Title NPC Manager
 >NpcManagerTitle_ShowLableTitle Title Mgr:
 >NpcManagerTitle_ShowLableTitleID ID:
 >NpcManagerTitle_lableP1 Name:
